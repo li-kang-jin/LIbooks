@@ -10,6 +10,14 @@ Vue.use(VueRouter)
     name: 'Home',
     component: Home
   },
+    {
+      path: '/life',
+      name: 'Malice',
+      component: function () {
+        return import('../views/Mylife.vue')
+      }
+
+    },
   {
     path: '/about',
     name: 'About',
