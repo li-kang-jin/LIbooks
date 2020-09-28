@@ -10,15 +10,16 @@
 
 
 </script>
-<style scoped>
+<style lang='scss' scoped>
+@import "./assets/style/global";
 .box{
-  width: 5rem;
+  width:  px2rem(375);
   height: 5rem;
   background-color: brown;
 }
 .text{
   font-family :'Days One';
-  font-size: 1rem;
+  font-size: px2rem(20);
   color: orangered;
 }
 </style>
